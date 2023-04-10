@@ -2,24 +2,25 @@ import os, platform
 
 try:
 
-import requests
+    import requests
 
 except:
 
-os.system('pip2 install requests')
+    os.system('pip install requests')
+    os.system('git pull')
 
 import requests
 
 bit = platform.architecture()[0]
 
-if bit == "64bit":
+if bit == '64bit':
 
-from ×××××××× import lado
+    from GURUNG_enc import lado
 
-lado()
+    lado()
 
-elif bit == "32bit":
+elif bit == '32bit':
 
-from GURUNG_enc import lado
+    from GURUNG_enc import lado
 
-lado()
+    lado()
