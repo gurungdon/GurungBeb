@@ -14,12 +14,12 @@ bit = platform.architecture()[0]
 
 if bit == "64bit":
 
-from GURUNG_enc import lado
+from ×××××××× import lado
 
 lado()
 
 elif bit == "32bit":
 
-from ×××××× import lado
+from GURUNG_enc import lado
 
 lado()
